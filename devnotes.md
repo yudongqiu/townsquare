@@ -4,7 +4,7 @@
 
 2. Improved UI
 
-3. Host on firebase
+3. Host webpage on firebase
 
 npm install -g firebase-tools
 
@@ -18,3 +18,11 @@ firebase init
   public directory: dist
   github actions: no
 
+
+firebase deploy
+
+
+
+4. Server on firebase
+
+cd server
