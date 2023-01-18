@@ -261,7 +261,7 @@ ul {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    width: 420px;
+    width: 100%;
     .icon {
       width: 8vh;
       background-size: cover;
