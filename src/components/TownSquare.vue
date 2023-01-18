@@ -467,8 +467,7 @@ export default {
     align-items: center;
     justify-content: center;
     li {
-      width: 14vh;
-      height: 14vh;
+      width: 20vw;
       margin: 0 0.5%;
       display: inline-block;
       transition: all 250ms;
