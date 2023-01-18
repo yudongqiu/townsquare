@@ -1,7 +1,7 @@
 [
   {
     "id": "washerwoman",
-    "name": "洗衣妇",
+    "name": "washerwoman",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 33,
@@ -11,11 +11,11 @@
     "reminders": ["Townsfolk",
         "Wrong"],
     "setup": false,
-    "ability": "游戏开始时，你得知两名玩家其中一名的村民身份"
+    "ability": "You start knowing that 1 of 2 players is a particular Townsfolk."
   },
   {
     "id": "librarian",
-    "name": "图书管理员",
+    "name": "Librarian",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 34,
@@ -25,11 +25,11 @@
     "reminders": ["Outsider",
         "Wrong"],
     "setup": false,
-    "ability": "游戏开始时，你会得知两名玩家其中一名的外来者身份，或得知本局没有外来者。"
+    "ability": "You start knowing that 1 of 2 players is a particular Outsider. (Or that zero are in play.)"
   },
   {
     "id": "investigator",
-    "name": "调查员",
+    "name": "Investigator",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 35,
@@ -39,11 +39,11 @@
     "reminders": ["Minion",
         "Wrong"],
     "setup": false,
-    "ability": "游戏开始时，你会得知两名玩家其中一名的爪牙身份"
+    "ability": "You start knowing that 1 of 2 players is a particular Minion."
   },
   {
     "id": "chef",
-    "name": "厨师",
+    "name": "Chef",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 36,
@@ -52,11 +52,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "游戏开始时，你会得知有多少对邪恶玩家为邻座"
+    "ability": "You start knowing how many pairs of evil players there are."
   },
   {
     "id": "empath",
-    "name": "读心者",
+    "name": "Empath",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 37,
@@ -65,11 +65,11 @@
     "otherNightReminder": "Show the finger signal (0, 1, 2) for the number of evil neighbours.",
     "reminders": [],
     "setup": false,
-    "ability": "每个夜晚，你得知与你相邻的存活玩家中有多少名属于邪恶阵营"
+    "ability": "Each night, you learn how many of your 2 alive neighbours are evil."
   },
   {
     "id": "fortuneteller",
-    "name": "占卜师",
+    "name": "Fortune Teller",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 38,
@@ -78,11 +78,11 @@
     "otherNightReminder": "The Fortune Teller points to two players. Show the head signal (nod 'yes', shake 'no') for whether one of those players is the Demon.",
     "reminders": ["Red herring"],
     "setup": false,
-    "ability": "每个夜晚，你选择两名玩家，并得知他们两人中是否有恶魔。有一名善良玩家，你的技能始终会把他误认为恶魔"
+    "ability": "Each night, choose 2 players: you learn if either is a Demon. There is a good player that registers as a Demon to you."
   },
   {
     "id": "undertaker",
-    "name": "送葬者",
+    "name": "Undertaker",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -91,11 +91,11 @@
     "otherNightReminder": "If a player was executed today: Show that player\u2019s character token.",
     "reminders": ["Executed"],
     "setup": false,
-    "ability": "每个夜晚*，你得知今天死于处决的玩家的身份"
+    "ability": "Each night*, you learn which character died by execution today."
   },
   {
     "id": "monk",
-    "name": "僧侣",
+    "name": "Monk",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -104,11 +104,11 @@
     "otherNightReminder": "The previously protected player is no longer protected. The Monk points to a player not themself. Mark that player 'Protected'.",
     "reminders": ["Protected"],
     "setup": false,
-    "ability": "每个夜晚*，选择一名其他玩家，使他在今晚免受恶魔侵害"
+    "ability": "Each night*, choose a player (not yourself): they are safe from the Demon tonight."
   },
   {
     "id": "ravenkeeper",
-    "name": "守鸦人",
+    "name": "Ravenkeeper",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -117,11 +117,11 @@
     "otherNightReminder": "If the Ravenkeeper died tonight: The Ravenkeeper points to a player. Show that player\u2019s character token.",
     "reminders": [],
     "setup": false,
-    "ability": "当你在夜晚死亡时，选择一名玩家，得知他的身份"
+    "ability": "If you die at night, you are woken to choose a player: you learn their character."
   },
   {
     "id": "virgin",
-    "name": "圣女",
+    "name": "Virgin",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -130,11 +130,11 @@
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "当你第一次被提名时，如果提名你的玩家是村民，他立刻被处决"
+    "ability": "The 1st time you are nominated, if the nominator is a Townsfolk, they are executed immediately."
   },
   {
     "id": "slayer",
-    "name": "杀手",
+    "name": "Slayer",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -143,11 +143,11 @@
     "otherNightReminder": "",
     "reminders": ["No ability"],
     "setup": false,
-    "ability": "整局游戏限一次，白天，你可以公开选择一名玩家，如果他是恶魔，他死亡"
+    "ability": "Once per game, during the day, publicly choose a player: if they are the Demon, they die."
   },
   {
     "id": "soldier",
-    "name": "士兵",
+    "name": "Soldier",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -156,11 +156,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "你免受恶魔侵害"
+    "ability": "You are safe from the Demon."
   },
   {
     "id": "mayor",
-    "name": "市长",
+    "name": "Mayor",
     "edition": "tb",
     "team": "townsfolk",
     "firstNight": 0,
@@ -169,11 +169,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "当剩下三名玩家存活，且当天没有玩家被处决时，你的阵营获胜。当你在夜晚死亡时，可能有其他玩家代替你死亡"
+    "ability": "If only 3 players live & no execution occurs, your team wins. If you die at night, another player might die instead."
   },
   {
     "id": "butler",
-    "name": "管家",
+    "name": "Butler",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 39,
@@ -182,11 +182,11 @@
     "otherNightReminder": "The Butler points to a player. Mark that player as 'Master'.",
     "reminders": ["Master"],
     "setup": false,
-    "ability": "每个夜晚，选择一名其他玩家，明天当他投票时，你才能投票"
+    "ability": "Each night, choose a player (not yourself): tomorrow, you may only vote if they are voting too."
   },
   {
     "id": "drunk",
-    "name": "酒鬼",
+    "name": "Drunk",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -196,11 +196,11 @@
     "reminders": [],
     "remindersGlobal": ["Drunk"],
     "setup": true,
-    "ability": "你不知道你是酒鬼，你以为你是一个村民身份，但其实你不是"
+    "ability": "You do not know you are the Drunk. You think you are a Townsfolk character, but you are not."
   },
   {
     "id": "recluse",
-    "name": "隐士",
+    "name": "Recluse",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -209,11 +209,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "你可能被视为一名邪恶的爪牙或恶魔。即使你已经死亡"
+    "ability": "You might register as evil & as a Minion or Demon, even if dead."
   },
   {
     "id": "saint",
-    "name": "圣徒",
+    "name": "Saint",
     "edition": "tb",
     "team": "outsider",
     "firstNight": 0,
@@ -222,11 +222,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": false,
-    "ability": "当你被处决时，你的阵营落败."
+    "ability": "If you die by execution, your team loses."
   },
   {
     "id": "poisoner",
-    "name": "下毒者",
+    "name": "Poisoner",
     "edition": "tb",
     "team": "minion",
     "firstNight": 17,
@@ -235,11 +235,11 @@
     "otherNightReminder": "The previously poisoned player is no longer poisoned. The Poisoner points to a player. That player is poisoned.",
     "reminders": ["Poisoned"],
     "setup": false,
-    "ability": "每个夜晚，选择一名玩家，他中毒，直到下个黄昏"
+    "ability": "Each night, choose a player: they are poisoned tonight and tomorrow day."
   },
   {
     "id": "spy",
-    "name": "间谍",
+    "name": "Spy",
     "edition": "tb",
     "team": "minion",
     "firstNight": 49,
@@ -248,11 +248,11 @@
     "otherNightReminder": "Show the Grimoire to the Spy for as long as they need.",
     "reminders": [],
     "setup": false,
-    "ability": "每个夜晚，你查看魔典。你可能被视为一名善良的村民或外来者，即使你已经死亡"
+    "ability": "Each night, you see the Grimoire. You might register as good & as a Townsfolk or Outsider, even if dead."
   },
   {
     "id": "scarletwoman",
-    "name": "荡妇",
+    "name": "Scarlet Woman",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
@@ -261,11 +261,11 @@
     "otherNightReminder": "If the Scarlet Woman became the Demon today: Show the 'You are' card, then the demon token.",
     "reminders": ["Demon"],
     "setup": false,
-    "ability": "当存活玩家大于等于5人且恶魔死亡时(不包括旅行者)，你成为新的恶魔"
+    "ability": "If there are 5 or more players alive & the Demon dies, you become the Demon. (Travellers don\u2019t count)"
   },
   {
     "id": "baron",
-    "name": "男爵",
+    "name": "Baron",
     "edition": "tb",
     "team": "minion",
     "firstNight": 0,
@@ -274,11 +274,11 @@
     "otherNightReminder": "",
     "reminders": [],
     "setup": true,
-    "ability": "本局游戏存在额外的外来者。[+2外来者]"
+    "ability": "There are extra Outsiders in play. [+2 Outsiders]"
   },
   {
     "id": "imp",
-    "name": "小恶魔",
+    "name": "Imp",
     "edition": "tb",
     "team": "demon",
     "firstNight": 0,
@@ -287,7 +287,7 @@
     "otherNightReminder": "The Imp points to a player. That player dies. If the Imp chose themselves: Replace the character of 1 alive minion with a spare Imp token. Show the 'You are' card, then the Imp token.",
     "reminders": ["Dead"],
     "setup": false,
-    "ability": "每个夜晚*，选择一名玩家，将他杀害。当你杀害自己时，一名爪牙变为新的小恶魔"
+    "ability": "Each night*, choose a player: they die. If you kill yourself this way, a Minion becomes the Imp."
   },
   {
     "id": "bureaucrat",
