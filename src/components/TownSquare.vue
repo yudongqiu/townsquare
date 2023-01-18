@@ -300,6 +300,15 @@ export default {
   }
 }
 
+@media screen and (max-aspect-ratio: 1 / 1) {
+  .circle {
+    > li {
+      top: calc(50% - 50vw)!important;
+      height: 50vw!important;
+    }
+  }
+}
+
 @mixin on-circle($item-count) {
   $angle: (360 / $item-count);
   $rot: 0;
