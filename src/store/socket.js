@@ -1,6 +1,7 @@
 class LiveSession {
   constructor(store) {
-    this._wss = "ws://" + window.location.hostname + ":8081/";
+    // this._wss = "ws://" + window.location.hostname + ":8081/";
+    this._wss = "wss://http-nodejs-production-96d9.up.railway.app/"
     // this._wss = "ws://localhost:8081/"; // uncomment if using local server with NODE_ENV=development
     this._socket = null;
     this._isSpectator = true;

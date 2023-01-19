@@ -25,4 +25,6 @@ firebase deploy
 
 4. Server on firebase
 
-cd server
+Not possible
+
+Changed to rail way. https://github.com/yudongqiu/botc-ts-server-railway
